@@ -24,10 +24,10 @@ import {
 import { isTask, AGENT_PLAY } from "../types/agentTypes";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useSettings } from "../hooks/useSettings";
-import { SorryDialog } from "../components/SorryDialog";
+// import { SorryDialog } from "../components/SorryDialog";
 import { SignInDialog } from "../components/SignInDialog";
-import WeChatPayDialog from "../components/WeChatPayDialog";
-import QQDialog from "../components/QQDialog";
+// import WeChatPayDialog from "../components/WeChatPayDialog";
+// import QQDialog from "../components/QQDialog";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { useGuestMode } from "../hooks/useGuestMode";
@@ -236,10 +236,10 @@ const Home: NextPage = () => {
       <QQDialog show={showQQDialog} close={() => setShowQQDialog(false)} />
       <main className="flex min-h-screen flex-row">
         <Drawer
-          showHelp={() => setShowHelpDialog(true)}
-          showSettings={() => setShowSettingsDialog(true)}
-          showQQ={() => setShowQQDialog(true)}
-          showWeChatPay={() => setShowWeChatPayDialog(true)}
+          showHelp={() => setShowHelpDialog(false)}
+          showSettings={() => setShowSettingsDialog(false)}
+          showQQ={() => setShowQQDialog(false)}
+          showWeChatPay={() => setShowWeChatPayDialog(false)}
           handleLanguageChange={handleLanguageChange}
           showDonation={showDonation}
         />
