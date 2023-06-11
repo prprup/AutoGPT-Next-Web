@@ -24,10 +24,10 @@ import {
 import { isTask, AGENT_PLAY } from "../types/agentTypes";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useSettings } from "../hooks/useSettings";
-// import { SorryDialog } from "../components/SorryDialog";
+import { SorryDialog } from "../components/SorryDialog";
 import { SignInDialog } from "../components/SignInDialog";
-// import WeChatPayDialog from "../components/WeChatPayDialog";
-// import QQDialog from "../components/QQDialog";
+import WeChatPayDialog from "../components/WeChatPayDialog";
+import QQDialog from "../components/QQDialog";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { useGuestMode } from "../hooks/useGuestMode";
