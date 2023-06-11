@@ -219,7 +219,7 @@ const Home: NextPage = () => {
       <SettingsDialog
         customSettings={settingsModel}
         show={showSettingsDialog}
-        close={() => setShowSettingsDialog(false)}
+        close={() => setShowSettingsDialog(true)}
       />
       <SorryDialog
         show={showSorryDialog}
