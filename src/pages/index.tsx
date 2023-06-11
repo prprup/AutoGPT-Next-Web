@@ -237,7 +237,7 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen flex-row">
         <Drawer
           showHelp={() => setShowHelpDialog(false)}
-          showSettings={() => setShowSettingsDialog(false)}
+          showSettings={() => setShowSettingsDialog(true)}
           showQQ={() => setShowQQDialog(false)}
           showWeChatPay={() => setShowWeChatPayDialog(false)}
           handleLanguageChange={handleLanguageChange}
