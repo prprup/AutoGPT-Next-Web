@@ -148,13 +148,13 @@ const Drawer = ({
             />
           )}
           {authEnabled && (
-            // <Fragment>
-            //   <DrawerItem
-            //     icon={<FaQq />}
-            //     text="QQ"
-            //     target="_blank"
-            //     onClick={showQQ}
-            //   />
+            <Fragment>
+            {/*//   <DrawerItem*/}
+            {/*//     icon={<FaQq />}*/}
+            {/*//     text="QQ"*/}
+            {/*//     target="_blank"*/}
+            {/*//     onClick={showQQ}*/}
+            {/*//   />*/}
               <DrawerItem
                 icon={<FaDiscord />}
                 text="Discord"
