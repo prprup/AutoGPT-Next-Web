@@ -3,7 +3,7 @@ import {
   FaBars,
   FaCog,
   FaDiscord,
-  FaGithub,
+  // FaGithub,
   FaQuestionCircle,
   FaRobot,
   FaRocket,
@@ -11,7 +11,7 @@ import {
   FaSignOutAlt,
   FaUser,
   FaLanguage,
-  FaQq,
+  // FaQq,
   FaDonate,
 } from "react-icons/fa";
 import clsx from "clsx";
@@ -148,13 +148,13 @@ const Drawer = ({
             />
           )}
           {authEnabled && (
-            <Fragment>
-              <DrawerItem
-                icon={<FaQq />}
-                text="QQ"
-                target="_blank"
-                onClick={showQQ}
-              />
+            // <Fragment>
+            //   <DrawerItem
+            //     icon={<FaQq />}
+            //     text="QQ"
+            //     target="_blank"
+            //     onClick={showQQ}
+            //   />
               <DrawerItem
                 icon={<FaDiscord />}
                 text="Discord"
@@ -163,12 +163,12 @@ const Drawer = ({
               />
             </Fragment>
           )}
-          <DrawerItem
-            icon={<FaGithub />}
-            text="GitHub"
-            href="https://github.com/Dogtiti/AutoGPT-Next-Web"
-            target="_blank"
-          />
+          {/*<DrawerItem*/}
+          {/*  icon={<FaGithub />}*/}
+          {/*  text="GitHub"*/}
+          {/*  href=""*/}
+          {/*  target="_blank"*/}
+          {/*/>*/}
           <DrawerItem
             icon={<FaLanguage />}
             text="language"
