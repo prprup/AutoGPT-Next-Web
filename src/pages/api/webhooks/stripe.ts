@@ -8,7 +8,7 @@ import { prisma } from "../../../server/db";
 import { getCustomerEmail } from "../../../utils/stripe-utils";
 
 const stripe = new Stripe(env.STRIPE_SECRET_KEY ?? "", {
-  apiVersion: "2022-11-15",
+  apiVersion: "",
 });
 
 const webhookSecret = env.STRIPE_WEBHOOK_SECRET ?? "";
